@@ -1,0 +1,27 @@
+ion-grid {
+  --ion-grid-padding: 0;
+}
+ion-col {
+  --ion-grid-column-padding: 0;
+}
+ion-card-header {
+  padding: 0;
+}
+ion-card-content {
+  padding: 8px;
+  
+    .titulo {
+      text-align: center !important;
+    }
+}
+ion-icon {
+  padding-top: 0.3rem;
+}
+ion-card.sc-ion-card-md-h.sc-ion-card-md-s.hydrated {
+  height: 14rem;
+}
+ion-img {
+  height: 6rem !important;
+  object-fit: cover !important;
+  object-position: center !important;
+}
