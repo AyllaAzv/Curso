@@ -7,4 +7,19 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content> </ion-content>
+<ion-content>
+  <form [formGroup]="form">
+    <div class="conteudo">
+      <ion-item>
+        <ion-label position="stacked">Nome: </ion-label>
+        <ion-input type="text" formControlName="nome"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="stacked">Telefone: </ion-label>
+        <ion-input type="tel" formControlName="telefone"></ion-input>
+      </ion-item>
+
+      <ion-button shape="round" (click)="onSubmit()">Reservar</ion-button>
+    </div>
+  </form>
+</ion-content>
